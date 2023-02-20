@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9938331929A334CC001C0A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938331829A334CC001C0A2D /* AppDelegate.swift */; };
 		9938331B29A334CC001C0A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938331A29A334CC001C0A2D /* SceneDelegate.swift */; };
-		9938331D29A334CC001C0A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938331C29A334CC001C0A2D /* ViewController.swift */; };
 		9938332029A334CC001C0A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9938331E29A334CC001C0A2D /* Main.storyboard */; };
 		9938332229A334CD001C0A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9938332129A334CD001C0A2D /* Assets.xcassets */; };
 		9938332529A334CD001C0A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9938332329A334CD001C0A2D /* LaunchScreen.storyboard */; };
+		994B709E29A35C6100837FCA /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994B709D29A35C6100837FCA /* ToDoListViewController.swift */; };
+		994B70A029A35CD400837FCA /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994B709F29A35CD400837FCA /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9938331529A334CC001C0A2D /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9938331829A334CC001C0A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9938331A29A334CC001C0A2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9938331C29A334CC001C0A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9938331F29A334CC001C0A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9938332129A334CD001C0A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9938332429A334CD001C0A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9938332629A334CD001C0A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994B709D29A35C6100837FCA /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		994B709F29A35CD400837FCA /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				9938331829A334CC001C0A2D /* AppDelegate.swift */,
 				9938331A29A334CC001C0A2D /* SceneDelegate.swift */,
-				9938331C29A334CC001C0A2D /* ViewController.swift */,
+				994B709D29A35C6100837FCA /* ToDoListViewController.swift */,
+				994B709F29A35CD400837FCA /* InputViewController.swift */,
 				9938331E29A334CC001C0A2D /* Main.storyboard */,
 				9938332129A334CD001C0A2D /* Assets.xcassets */,
 				9938332329A334CD001C0A2D /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9938331D29A334CC001C0A2D /* ViewController.swift in Sources */,
+				994B709E29A35C6100837FCA /* ToDoListViewController.swift in Sources */,
 				9938331929A334CC001C0A2D /* AppDelegate.swift in Sources */,
 				9938331B29A334CC001C0A2D /* SceneDelegate.swift in Sources */,
+				994B70A029A35CD400837FCA /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
